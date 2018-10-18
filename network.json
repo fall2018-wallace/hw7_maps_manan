@@ -35,6 +35,17 @@
             ],
             "source": "census.R",
             "target": "merge.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "census_arrests",
+                    "output": "census_arrests",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "merge.R",
+            "target": "frame.R"
         }
     ],
     "nodes": [
@@ -64,6 +75,6 @@
             "name": "frame.R"
         }
     ],
-    "updated_at": "2018-10-18 04:16:19",
+    "updated_at": "2018-10-18 04:17:08",
     "url": "https://github.com/fall2018-wallace/hw7_maps_manan"
 }
