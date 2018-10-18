@@ -87,6 +87,16 @@
             ],
             "source": "plot.R",
             "target": "mapcolorpop.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mapmurder",
+                    "type": "png"
+                }
+            ],
+            "source": "plot.R",
+            "target": "mapmurder.png"
         }
     ],
     "nodes": [
@@ -136,6 +146,6 @@
             "name": "mapmurder.png"
         }
     ],
-    "updated_at": "2018-10-18 14:01:20",
+    "updated_at": "2018-10-18 14:01:34",
     "url": "https://github.com/fall2018-wallace/hw7_maps_manan"
 }
