@@ -17,23 +17,23 @@
         {
             "ports": [
                 {
-                    "input": "dfstates",
-                    "output": "dfstates",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "census.R",
-            "target": "merge.R"
-        },
-        {
-            "ports": [
-                {
                     "input": "arrests",
                     "output": "arrests",
                     "type": "r_obj"
                 }
             ],
             "source": "arrests.R",
+            "target": "merge.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "dfStates",
+                    "output": "dfStates",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "census.R",
             "target": "merge.R"
         }
     ],
@@ -42,10 +42,10 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
-            "assigned_to": "not assigned",
+            "assigned_to": "mrdedhia",
             "desc": "",
             "name": "census.R",
-            "task_status": "proposed"
+            "task_status": "in progress"
         },
         {
             "assigned_to": "mrdedhia",
@@ -58,6 +58,6 @@
             "name": "merge.R"
         }
     ],
-    "updated_at": "2018-10-18 03:33:40",
+    "updated_at": "2018-10-18 03:35:07",
     "url": "https://github.com/fall2018-wallace/hw7_maps_manan"
 }
