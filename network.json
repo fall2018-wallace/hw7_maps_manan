@@ -1,0 +1,177 @@
+{
+    "collaborators": [
+        "mrdedhia"
+    ],
+    "created_at": "2018-10-17 23:47:05",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "scprc_est_2017_18_pop_res.csv",
+            "target": "census.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "arrests",
+                    "output": "arrests",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "arrests.R",
+            "target": "merge.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "dfStates",
+                    "output": "dfStates",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "census.R",
+            "target": "merge.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "census_arrests1",
+                    "output": "census_arrests1",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "frame.R",
+            "target": "plot.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "census_arrests",
+                    "output": "census_arrests",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "merge.R",
+            "target": "frame.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mapsimple",
+                    "type": "png"
+                }
+            ],
+            "source": "plot.R",
+            "target": "mapsimple.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "maparea",
+                    "type": "png"
+                }
+            ],
+            "source": "plot.R",
+            "target": "maparea.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mapcolorpop",
+                    "type": "png"
+                }
+            ],
+            "source": "plot.R",
+            "target": "mapcolorpop.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mapmurder",
+                    "type": "png"
+                }
+            ],
+            "source": "plot.R",
+            "target": "mapmurder.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mapsimplenoreas",
+                    "type": "png"
+                }
+            ],
+            "source": "plot.R",
+            "target": "mapsimplenoreas.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mapcombine",
+                    "type": "png"
+                }
+            ],
+            "source": "plot.R",
+            "target": "mapcombine.png"
+        }
+    ],
+    "nodes": [
+        {
+            "name": "scprc_est_2017_18_pop_res.csv"
+        },
+        {
+            "assigned_to": "mrdedhia",
+            "desc": "",
+            "name": "census.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "mrdedhia",
+            "desc": "",
+            "name": "arrests.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "mrdedhia",
+            "desc": "",
+            "name": "merge.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "mrdedhia",
+            "desc": "",
+            "name": "frame.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "mrdedhia",
+            "desc": "",
+            "name": "plot.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "mapsimple.png"
+        },
+        {
+            "name": "maparea.png"
+        },
+        {
+            "name": "mapcolorpop.png"
+        },
+        {
+            "name": "mapmurder.png"
+        },
+        {
+            "name": "mapcombine.png"
+        },
+        {
+            "name": "mapsimplenoreas.png"
+        }
+    ],
+    "updated_at": "2018-10-18 14:05:57",
+    "url": "https://github.com/fall2018-wallace/hw7_maps_manan"
+}
