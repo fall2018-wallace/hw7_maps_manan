@@ -13,24 +13,11 @@
             ],
             "source": "scprc_est_2017_18_pop_res.csv",
             "target": "census.R"
-        },
-        {
-            "ports": [
-                {
-                    "output": "clean_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "census.R",
-            "target": "data.csv"
         }
     ],
     "nodes": [
         {
             "name": "scprc_est_2017_18_pop_res.csv"
-        },
-        {
-            "name": "data.csv"
         },
         {
             "assigned_to": "not assigned",
@@ -39,6 +26,6 @@
             "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-10-18 03:28:59",
+    "updated_at": "2018-10-18 03:29:11",
     "url": "https://github.com/fall2018-wallace/hw7_maps_manan"
 }
