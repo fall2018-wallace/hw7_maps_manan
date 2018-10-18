@@ -105,8 +105,11 @@
         },
         {
             "name": "mapsimple.png"
+        },
+        {
+            "name": "maparea.png"
         }
     ],
-    "updated_at": "2018-10-18 13:56:52",
+    "updated_at": "2018-10-18 13:57:44",
     "url": "https://github.com/fall2018-wallace/hw7_maps_manan"
 }
