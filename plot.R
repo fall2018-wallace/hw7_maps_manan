@@ -18,3 +18,6 @@ census_arrests1$stateName <- tolower(census_arrests1$stateName)
    ggtitle("Murder Rate")
  mapcolorpop 
 
+mapmurder <- mapcolorpop+ geom_point(x = census_arrests1$x, y = census_arrests1$y,aes(size = census_arrests1$population))+ggtitle("Murder rate with population size map")
+ mapmurder
+
