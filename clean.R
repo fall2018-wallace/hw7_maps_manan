@@ -1,5 +1,5 @@
 
-dfStates <<- read.csv("scprc_est_2017_18_pop_res.csv") 
+dfStates <- read.csv("scprc_est_2017_18_pop_res.csv") 
   dfStates <<- dfStates[-1,]
   dfStates <<- dfStates[-52,]
   dfStates <<- dfStates[-9,]
