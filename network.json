@@ -46,6 +46,17 @@
             ],
             "source": "merge.R",
             "target": "frame.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "census_arrests1",
+                    "output": "census_arrests1",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "frame.R",
+            "target": "plot.R"
         }
     ],
     "nodes": [
@@ -71,14 +82,18 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "mrdedhia",
             "desc": "",
-            "name": "frame.R"
+            "name": "frame.R",
+            "task_status": "in progress"
         },
         {
+            "assigned_to": "mrdedhia",
             "desc": "",
-            "name": "plot.R"
+            "name": "plot.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-18 04:18:39",
+    "updated_at": "2018-10-18 04:26:30",
     "url": "https://github.com/fall2018-wallace/hw7_maps_manan"
 }
