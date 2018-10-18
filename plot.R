@@ -10,9 +10,6 @@ census_arrests1$stateName <- tolower(census_arrests1$stateName)
  maparea <- mapsimple + geom_map(map = usa,aes(fill=state.area))+ggtitle("Area map")
  maparea
  
-  mapmurder <- mapcolorpop+ geom_point(x = census_arrests1$x, y = census_arrests1$y,aes(size = census_arrests1$population))+ggtitle("Murder rate with population size map")
- mapmurder
-
  
   mapcolorpop <- ggplot(census_arrests1,aes(map_id = stateName))
  mapcolorpop <- mapcolorpop+  geom_map(map = usa,aes(fill=Murder))
