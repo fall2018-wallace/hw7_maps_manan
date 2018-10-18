@@ -77,6 +77,16 @@
             ],
             "source": "plot.R",
             "target": "maparea.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mapcolorpop",
+                    "type": "png"
+                }
+            ],
+            "source": "plot.R",
+            "target": "mapcolorpop.png"
         }
     ],
     "nodes": [
@@ -123,6 +133,6 @@
             "name": "mapcolorpop.png"
         }
     ],
-    "updated_at": "2018-10-18 13:59:52",
+    "updated_at": "2018-10-18 14:00:08",
     "url": "https://github.com/fall2018-wallace/hw7_maps_manan"
 }
