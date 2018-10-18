@@ -1,8 +1,4 @@
 
-
-
-install.packages("ggmap")
-install.packages("ggplot2")
 library("ggmap")
 library("ggplot2")
 usa <- map_data("state")
