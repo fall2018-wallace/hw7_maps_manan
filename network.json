@@ -92,8 +92,11 @@
             "desc": "",
             "name": "plot.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "mapsimple.png"
         }
     ],
-    "updated_at": "2018-10-18 04:36:45",
+    "updated_at": "2018-10-18 13:56:25",
     "url": "https://github.com/fall2018-wallace/hw7_maps_manan"
 }
