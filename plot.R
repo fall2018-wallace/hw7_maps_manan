@@ -24,9 +24,9 @@ mapmurder <- mapcolorpop+ geom_point(x = census_arrests1$x, y = census_arrests1$
  latlongg <- geocode(source= "dsk", "nyc,new york, ny")
    latlongg
    
-   mapsimple <- mapcolorpop  + xlim(-84,-64)+ ylim(30,50)
+   mapsimplenoreas <- mapcolorpop  + xlim(-84,-64)+ ylim(30,50)
    mapcombine  <- mapmurder  + xlim(-84,-64)+ ylim(30,50)
    
-   mapsimple 
+   mapsimplenoreas 
    mapcombine
   
