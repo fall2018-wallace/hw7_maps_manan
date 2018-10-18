@@ -107,6 +107,16 @@
             ],
             "source": "plot.R",
             "target": "mapsimplenoreas.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mapcombine",
+                    "type": "png"
+                }
+            ],
+            "source": "plot.R",
+            "target": "mapcombine.png"
         }
     ],
     "nodes": [
@@ -162,6 +172,6 @@
             "name": "mapsimplenoreas.png"
         }
     ],
-    "updated_at": "2018-10-18 14:05:41",
+    "updated_at": "2018-10-18 14:05:57",
     "url": "https://github.com/fall2018-wallace/hw7_maps_manan"
 }
