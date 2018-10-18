@@ -57,6 +57,16 @@
             ],
             "source": "merge.R",
             "target": "frame.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mapsimple",
+                    "type": "png"
+                }
+            ],
+            "source": "plot.R",
+            "target": "mapsimple.png"
         }
     ],
     "nodes": [
@@ -97,6 +107,6 @@
             "name": "mapsimple.png"
         }
     ],
-    "updated_at": "2018-10-18 13:56:25",
+    "updated_at": "2018-10-18 13:56:52",
     "url": "https://github.com/fall2018-wallace/hw7_maps_manan"
 }
